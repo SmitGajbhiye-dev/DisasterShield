@@ -1,36 +1,187 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DisasterShield
 
-## Getting Started
+<p align="center">
+  <img src="public/logo.png" alt="DisasterShield Logo" width="150" />
+</p>
 
-First, run the development server:
+<h1 align="center">🌍 DisasterShield</h1>
+
+<p align="center">
+  A modern disaster management and emergency response platform built with Next.js to help communities stay informed, prepared, and connected during natural and man-made disasters.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
+
+---
+
+## 📖 Overview
+
+DisasterShield is a web-based platform designed to improve disaster preparedness, response, and awareness. It provides users with timely information, emergency resources, and disaster-related updates through an intuitive and responsive interface.
+
+The goal of DisasterShield is to enhance community resilience by delivering critical information when it matters most.
+
+---
+
+## ✨ Features
+
+* 🚨 Real-time disaster alerts and notifications
+* 📍 Location-based emergency information
+* 🗺️ Interactive maps and disaster tracking
+* 🏥 Emergency contact and resource directory
+* 📊 Disaster awareness and preparedness information
+* 📱 Fully responsive user interface
+* ⚡ Fast performance powered by Next.js
+* 🔒 Scalable and secure architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* CSS / Tailwind CSS (if applicable)
+
+### Development Tools
+
+* ESLint
+* PostCSS
+* npm
+
+---
+
+## 📂 Project Structure
+
+```bash
+DisasterShield/
+│
+├── app/                  # Next.js App Router
+├── public/               # Static assets
+├── src/                  # Core application logic
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+* Node.js (v18 or later)
+* npm / yarn / pnpm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SmitGajbhiye-dev/DisasterShield.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd DisasterShield
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Running the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The application will automatically reload when changes are made.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Build for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the production server:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Future Enhancements
+
+* AI-powered disaster prediction
+* Real-time weather integration
+* SMS and email alert systems
+* Community reporting module
+* Multi-language support
+* Offline emergency resources
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to your branch
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Smit Gajbhiye**
