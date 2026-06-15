@@ -1,9 +1,5 @@
 # DisasterShield
 
-<p align="center">
-  <img src="public/logo.png" alt="DisasterShield Logo" width="150" />
-</p>
-
 <h1 align="center">🌍 DisasterShield</h1>
 
 <p align="center">
